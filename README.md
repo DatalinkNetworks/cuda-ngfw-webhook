@@ -7,7 +7,7 @@ Create a new trigger to receive webhooks from the Barracuda NGFW
 
 
 ### 2) Parse the JSON Request
-Parse the body into a custom, useful JSON object
+Parse the body into a custom, useful JSON object. Note that the adaptive card payload expects this action to be called "Parse NGFW Event".
 ![image](https://github.com/user-attachments/assets/de3d98ff-d170-4de6-9664-68964f625ee0)
 
 Content:
